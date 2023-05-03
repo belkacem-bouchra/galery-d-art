@@ -1,0 +1,137 @@
+@media (hover:hover) {
+
+    nav ul li a:hover,
+    .active-link {
+        color: #f58f36;
+    }
+
+    nav ul li a:hover:before,
+    nav ul li a.active-link::before {
+        width: 1px;
+        height: 90%;
+    }
+
+    nav ul li a:hover:after,
+    nav ul li a.active-link::after {
+        width: 90%;
+        height: 1px;
+    }
+
+    swiper-slide .slide .text button:hover {
+        background-color: #f58f36;
+    }
+
+    swiper-slide .slide .text button:hover a {
+        color: black;
+    }
+
+    .about-text button:hover {
+        background-color: #f58f36;
+    }
+
+    .about-text button:hover a {
+        color: rgb(255, 255, 255);
+    }
+
+    .service-box:hover .service-img {
+        transform: scale(1.05);
+    }
+
+    .service-box:hover .service-img .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .service-box:hover .blur-box {
+        transform: rotateY(90deg);
+    }
+
+    .service-box:hover .blur-box {
+        transform: translate(-50%, -50%) rotateY(90deg);
+    }
+
+    .service-box:hover p::before {
+        width: 90%;
+    }
+
+    .service-box:hover p::after {
+        height: 90%;
+    }
+
+    .galery-item:hover .galery-img::after {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .galery-item:hover img {
+        transform: scale(1.1);
+    }
+
+    .galery-item:hover .galery-text {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .galery-item:hover .galery-text::before {
+        height: 90%;
+    }
+
+    .galery-item:hover .galery-text::after {
+        width: 90%;
+    }
+
+    .galery button:hover {
+        background-color: #f58f36;
+    }
+
+    .galery button:hover a {
+        color: rgb(255, 255, 255);
+    }
+
+    .video-text button:hover {
+        background-color: #f58f36;
+    }
+
+    .video-text button:hover a {
+        color: rgb(255, 255, 255);
+    }
+
+    .item-img:hover .image::after {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .item-img:hover img {
+        transform: scale(1.1);
+    }
+
+    .item-img:hover .reaction {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .reaction i:hover {
+        background-color: var(--main-color);
+        color: white;
+    }
+
+    .glider-next:hover,
+    .glider-prev:hover {
+        color: var(--main-color) !important;
+    }
+
+    .form button:hover {
+        background-color: #f58f36;
+    }
+
+    .form button:hover a {
+        color: rgb(255, 255, 255);
+    }
+
+    .social-icons a:hover {
+        color: white;
+    }
+
+    .copy-section ul li a:hover {
+        color: var(--main-color);
+    }
+}
+
+@media (hover:none) {}

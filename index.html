@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awsome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive CSS File -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Hover CSS File -->
+    <link rel="stylesheet" href="css/hover.css">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cookie&family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Glider.Js Slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <title>Galerie d'art</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <h1 class="border-style">Galerie d'<span>Art</span></h1>
+                <span></span>
+            </div>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#" class="active-link border-style">acceuil</a></li>
+                    <li><a href="#" class="border-style">à propos</a></li>
+                    <li><a href="#" class="border-style">services</a></li>
+                    <li><a href="#" class="border-style">galerie</a></li>
+                    <li><a href="#" class="border-style">boutique</a></li>
+                    <li><a href="#" class="border-style">contact</a></li>
+                </ul>
+            </nav>
+            <div class="burger" id="burger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+
+    <swiper-container class="mySwiper" pagination="false" navigation="true" space-between="0" autoplay-delay="3000"
+        autoplay-disable-on-interaction="false" loop="true" speed="1000">
+        <swiper-slide>
+            <div class="slide">
+                <div class="image">
+                    <div class="overlay"></div>
+                    <img src="images/landing.jpg" alt="landing" />
+                </div>
+
+                <div class="text">
+                    <h2>histoire du palais d'exposition</h2>
+                    <p>un bref historique du palais d'exposition</p>
+                    <button><a href="#">en savoir plus</a></button>
+                </div>
+            </div>
+        </swiper-slide>
+        <swiper-slide>
+            <div class="slide">
+                <div class="image">
+                    <div class="overlay"></div>
+                    <img src="images/landing-2.jpg" alt="landing" />
+                </div>
+
+                <div class="text">
+                    <h2>histoire du palais d'exposition</h2>
+                    <p>un bref historique du palais d'exposition</p>
+                    <button><a href="#">en savoir plus</a></button>
+                </div>
+            </div>
+        </swiper-slide>
+    </swiper-container>
+    <div class="about">
+        <div class="container">
+            <div class="about-text">
+                <h2>à propos du palais d'exposition</h2>
+                <h3>le palais des beaux-arts</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut inventore praesentium est at itaque
+                    voluptatem voluptas ipsam. Facilis, accusamus distinctio harum quibusdam consequuntur soluta
+                    delectus non voluptates animi nemo quae!</p>
+                <button><a href="#">en savoir plus</a></button>
+            </div>
+            <div class="about-img border-style">
+                <img src="images/about.jpg" alt="about" />
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <div class="container">
+            <div class="main-heading">
+                <h2>services</h2>
+                <p>découvrez nos services</p>
+            </div>
+            <div class="services-container">
+                <div class="service-box">
+                    <div class="service-img">
+                        <div class="overlay"></div>
+                        <img src="images/service-01.jpg" alt="painture">
+                    </div>
+                    <div class="service-text">
+                        <div class="blur-box"></div>
+                        <p class="border-style">peinture</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-img">
+                        <div class="overlay"></div>
+                        <img src="images/service-02.jpg" alt="sculpture">
+                    </div>
+                    <div class="service-text">
+                        <div class="blur-box"> </div>
+                        <p class="border-style">sculpture</p>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <div class="service-img">
+                        <div class="overlay"></div>
+                        <img src="images/service-03.jpg" alt="peinture sur verre">
+                    </div>
+                    <div class="service-text">
+                        <div class="blur-box"></div>
+                        <p class="border-style">peinture sur verre</p>
+                    </div>
+
+                </div>
+                <div class="service-box">
+                    <div class="service-img">
+                        <div class="overlay"></div>
+                        <img src="images/service-04.jpg" alt="photographie">
+                    </div>
+                    <div class="service-text">
+                        <div class="blur-box"></div>
+                        <p class="border-style">photographie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="stats">
+        <div class="stats-img">
+            <img src="images/stats.jpg" alt="stats" />
+        </div>
+        <div class="stats-text">
+            <h2>nos derniers statistiques</h2>
+            <span>Le palais a recordé un grand succès</span>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae aliquam aliquid deserunt modi beatae
+                corporis, nam perspiciatis nulla ea maiores.</p>
+            <div class="stats-number">
+                <p>256<span>exposition</span></p>
+                <p>1.6K<span>visiteur l'année dernière</span></p>
+                <p>38<span>prix reçus</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="galery">
+        <div class="container">
+            <div class="main-heading">
+                <h2>galery</h2>
+                <p>profitez de notre galery</p>
+            </div>
+            <div class="galery-content">
+                <div class="galery-item">
+                    <div class="galery-img border-style">
+                        <img src="images/galery-01.jpg" alt="galery-01" />
+                    </div>
+                    <div class="galery-text border-style">
+                        <h3>photo #01</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit rerum accusantium.</p>
+                    </div>
+                </div>
+                <div class="galery-item">
+                    <div class="galery-img border-style">
+                        <img src="images/galery-02.jpg" alt="galery-02" />
+                    </div>
+                    <div class="galery-text border-style">
+                        <h3>photo #02</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit rerum accusantium.</p>
+                    </div>
+                </div>
+                <div class="galery-item">
+                    <div class="galery-img border-style">
+                        <img src="images/galery-03.jpg" alt="galery-03" />
+                    </div>
+                    <div class="galery-text border-style">
+                        <h3>photo #03</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit rerum accusantium.</p>
+                    </div>
+                </div>
+                <div class="galery-item">
+                    <div class="galery-img border-style">
+                        <img src="images/galery-04.jpg" alt="galery-04" />
+                    </div>
+                    <div class="galery-text border-style">
+                        <h3>photo #04</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit rerum accusantium.</p>
+                    </div>
+                </div>
+                <div class="galery-item">
+                    <div class="galery-img border-style">
+                        <img src="images/galery-05.jpg" alt="galery-05" />
+                    </div>
+                    <div class="galery-text border-style">
+                        <h3>photo #05</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit rerum accusantium.</p>
+                    </div>
+                </div>
+                <div class="galery-item">
+                    <div class="galery-img border-style">
+                        <img src="images/galery-06.jpg" alt="galery-06" />
+                    </div>
+                    <div class="galery-text border-style">
+                        <h3>photo #06</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit rerum accusantium.</p>
+                    </div>
+                </div>
+                <div class="galery-item">
+                    <div class="galery-img border-style">
+                        <img src="images/galery-07.jpg" alt="galery-07" />
+                    </div>
+                    <div class="galery-text border-style">
+                        <h3>photo #07</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit rerum accusantium.</p>
+                    </div>
+                </div>
+                <div class="galery-item">
+                    <div class="galery-img border-style">
+                        <img src="images/galery-08.jpg" alt="galery-08" />
+                    </div>
+                    <div class="galery-text border-style">
+                        <h3>photo #08</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit rerum accusantium.</p>
+                    </div>
+                </div>
+                <div class="galery-item">
+                    <div class="galery-img border-style">
+                        <img src="images/galery-09.jpg" alt="galery-09" />
+                    </div>
+                    <div class="galery-text border-style">
+                        <h3>photo #09</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et suscipit rerum accusantium.</p>
+                    </div>
+                </div>
+            </div>
+            <button><a href="#">voir plus</a></button>
+        </div>
+    </div>
+    <div class="video-section">
+        <div class="video">
+            <video src="images/awesome-video.mp4" autoplay loop></video>
+        </div>
+        <div class="video-text">
+            <h2>petit tour</h2>
+            <p>faites un tour dans notre palais</p>
+            <button><a href="#">voir plus</a></button>
+        </div>
+    </div>
+    <div class="glider-contain">
+        <div class="container">
+            <div class="main-heading">
+                <h2>boutique</h2>
+                <p>découvrez nos produits</p>
+            </div>
+            <div class="shop-content">
+                <div class="glider">
+                    <div class="shop-item">
+                        <div class="item-img border-style">
+                            <div class="image">
+                                <img src="images/shop-01.jpg" alt="shop-01">
+                            </div>
+                            <div class="reaction">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="item-desc">
+                            <p>Shop item Name</p>
+                            <span>152$</span>
+                        </div>
+                    </div>
+                    <div class="shop-item sale">
+                        <div class="item-img border-style">
+                            <div class="image">
+                                <img src="images/shop-02.jpg" alt="shop-02">
+                            </div>
+                            <div class="reaction">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="item-desc">
+                            <p>Shop item Name</p>
+                            <span>152$</span>
+                            <span>142$</span>
+                        </div>
+                    </div>
+                    <div class="shop-item sale">
+                        <div class="item-img border-style">
+                            <div class="image">
+                                <img src="images/shop-03.jpg" alt="shop-03">
+                            </div>
+                            <div class="reaction">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="item-desc">
+                            <p>Shop item Name</p>
+                            <span>152$</span>
+                            <span>142$</span>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <div class="item-img border-style">
+                            <div class="image">
+                                <img src="images/shop-04.png" alt="shop-04">
+                            </div>
+                            <div class="reaction">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="item-desc">
+                            <p>Shop item Name</p>
+                            <span>152$</span>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <div class="item-img border-style">
+                            <div class="image">
+                                <img src="images/shop-05.jpg" alt="shop-05">
+                            </div>
+                            <div class="reaction">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="item-desc">
+                            <p>Shop item Name</p>
+                            <span>152$</span>
+                        </div>
+                    </div>
+                    <div class="shop-item sale">
+                        <div class="item-img border-style">
+                            <div class="image">
+                                <img src="images/shop-06.jpg" alt="shop-06">
+                            </div>
+                            <div class="reaction">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="item-desc">
+                            <p>Shop item Name</p>
+                            <span>152$</span>
+                            <span>142$</span>
+                        </div>
+                    </div>
+                    <div class="shop-item">
+                        <div class="item-img border-style">
+                            <div class="image">
+                                <img src="images/shop-07.jpg" alt="shop-07">
+                            </div>
+                            <div class="reaction">
+                                <i class="fa-solid fa-heart"></i>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </div>
+                        <div class="item-desc">
+                            <p>Shop item Name</p>
+                            <span>152$</span>
+                        </div>
+                    </div>
+                </div>
+                <button aria-label="Previous" class="glider-prev">&#60;</button>
+                <button aria-label="Next" class="glider-next">&#62;</button>
+                <div class="dots" role="tablist"></div>
+            </div>
+        </div>
+    </div>
+    <div class="quote">
+        <div class="overlay"></div>
+        <div class="quote-content">
+            <q>Ne vous inquiétez pas de la façon dont vous devriez le dessiner,<br> dessinez-le simplement comme vous le
+                voyez</q>
+            <p>Tim Burton</p>
+            <span>réalisateur & scénariste</span>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container">
+            <div class="main-heading">
+                <h2>contact</h2>
+                <p>commencez une conversation</p>
+            </div>
+            <div class="contact-content">
+                <div class="touch">
+                    <p><i class="fa-solid fa-location-dot"></i>Awesome Address 17, New York, NYC</p>
+                    <p><i class="fa-solid fa-phone"></i>+00 123.456.789</p>
+                    <p><i class="fa-solid fa-envelope"></i>galerie-dart@gmail.com</p>
+                </div>
+                <div class="form">
+                    <form action="#">
+                        <div class="info">
+                            <div class="input-field">
+                                <input type="text" name="name" id="name" required>
+                                <span>Nom & Prénom</span>
+                                <span class="border border-style"></span>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" name="email" id="email" required>
+                                <span>Email</span>
+
+                                <span class="border border-style"></span>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" name="phone" id="phone" required>
+                                <span>Téléphone</span>
+                                <span class="border border-style"></span>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                            <span>Votre Message ...</span>
+                            <span class="border border-style"></span>
+                        </div>
+                    </form>
+                    <button><a href="#">Envoyez</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social-section">
+            <div class="logo">
+                <h1>Galerie d'<span>Art</span></h1>
+                <span></span>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i> </a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="copy-section">
+            <p>&copy; 2023 <span>Galerie d'Art</span> tous droits réservés</p>
+            <ul>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Politique De Confidentialité</a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- Swiper.Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <!-- Glider.Js -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script>
+        new Glider(document.querySelector('.glider'), {
+            // Mobile First
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            draggable: false,
+            dots: '.dots',
+            arrows: {
+                prev: '.glider-prev',
+                next: '.glider-next'
+            },
+            rewind: true,
+            responsive: [{
+                // Screens <=912px 
+                breakpoint: 912,
+                settings: {
+                    // Set to `auto` and provide item width to adjust to viewport
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }, {
+                // screens > 1024px
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }, {
+                // screens > 1299px
+                breakpoint: 1299,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            }
+            ]
+        })
+        // let fullBody = document.body;
+        // if (fullBody.offsetWidth <= 912) {
+        //     new Glider(document.querySelector('.glider'), {
+        //         slidesToShow: 1
+        //     });
+        // } else {
+        //     new Glider(document.querySelector('.glider'), {
+        //         slidesToShow: 4,
+        //         slidesToScroll: 1,
+        //         draggable: false,
+        //         dots: '.dots',
+        //         arrows: {
+        //             prev: '.glider-prev',
+        //             next: '.glider-next'
+        //         },
+        //         rewind: true,
+        //     });
+        // }
+
+    </script>
+    <!-- Main Js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
